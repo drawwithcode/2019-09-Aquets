@@ -117,6 +117,8 @@ function draw() {
 
 //run when the device is shaken
 function deviceShaken() {
+  frameCount = 1000; //prevent speed errors in the noise
+
   amplitude = 100; //make the amplitude bigger
   speed = 50; //set the speed faster
   //randomize the BONES relative positions
